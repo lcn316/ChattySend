@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D72E4EAC198AC67500144599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72E4EAB198AC67500144599 /* Foundation.framework */; };
+		D72E4EAE198AC67500144599 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72E4EAD198AC67500144599 /* CoreGraphics.framework */; };
+		D72E4EB0198AC67500144599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72E4EAF198AC67500144599 /* UIKit.framework */; };
+		D72E4EB6198AC67500144599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D72E4EB4198AC67500144599 /* InfoPlist.strings */; };
+		D72E4EB8198AC67500144599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72E4EB7198AC67500144599 /* main.m */; };
+		D72E4EBC198AC67500144599 /* LCNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D72E4EBB198AC67500144599 /* LCNAppDelegate.m */; };
+		D72E4EBF198AC67500144599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E4EBD198AC67500144599 /* Main.storyboard */; };
+		D72E4EC2198AC67500144599 /* LCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72E4EC1198AC67500144599 /* LCNViewController.m */; };
+		D72E4EC4198AC67500144599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72E4EC3198AC67500144599 /* Images.xcassets */; };
+		D72E4ECB198AC67500144599 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72E4ECA198AC67500144599 /* XCTest.framework */; };
+		D72E4ECC198AC67500144599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72E4EAB198AC67500144599 /* Foundation.framework */; };
+		D72E4ECD198AC67500144599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72E4EAF198AC67500144599 /* UIKit.framework */; };
+		D72E4ED5198AC67500144599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D72E4ED3198AC67500144599 /* InfoPlist.strings */; };
+		D72E4ED7198AC67500144599 /* ChattySendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72E4ED6198AC67500144599 /* ChattySendTests.m */; };
+		D77C7ED61A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77C7ED51A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.m */; };
+		D7D6A14F1A07427000FF2B5E /* ChatSend Send to FlatIron.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D6A14D1A07427000FF2B5E /* ChatSend Send to FlatIron.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D72E4ECE198AC67500144599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72E4EA0198AC67400144599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72E4EA7198AC67400144599;
+			remoteInfo = ChattySend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D72E4EA8198AC67400144599 /* ChattySend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattySend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E4EAB198AC67500144599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D72E4EAD198AC67500144599 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D72E4EAF198AC67500144599 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D72E4EB3198AC67500144599 /* ChattySend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChattySend-Info.plist"; sourceTree = "<group>"; };
+		D72E4EB5198AC67500144599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D72E4EB7198AC67500144599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D72E4EB9198AC67500144599 /* ChattySend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChattySend-Prefix.pch"; sourceTree = "<group>"; };
+		D72E4EBA198AC67500144599 /* LCNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNAppDelegate.h; sourceTree = "<group>"; };
+		D72E4EBB198AC67500144599 /* LCNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNAppDelegate.m; sourceTree = "<group>"; };
+		D72E4EBE198AC67500144599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72E4EC0198AC67500144599 /* LCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNViewController.h; sourceTree = "<group>"; };
+		D72E4EC1198AC67500144599 /* LCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNViewController.m; sourceTree = "<group>"; };
+		D72E4EC3198AC67500144599 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D72E4EC9198AC67500144599 /* ChattySendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattySendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E4ECA198AC67500144599 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D72E4ED2198AC67500144599 /* ChattySendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChattySendTests-Info.plist"; sourceTree = "<group>"; };
+		D72E4ED4198AC67500144599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D72E4ED6198AC67500144599 /* ChattySendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattySendTests.m; sourceTree = "<group>"; };
+		D77C7ED41A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNMasterViewControllerTableViewController.h; sourceTree = "<group>"; };
+		D77C7ED51A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNMasterViewControllerTableViewController.m; sourceTree = "<group>"; };
+		D7D6A14E1A07427000FF2B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ChatSend Send to FlatIron.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72E4EA5198AC67400144599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E4EAE198AC67500144599 /* CoreGraphics.framework in Frameworks */,
+				D72E4EB0198AC67500144599 /* UIKit.framework in Frameworks */,
+				D72E4EAC198AC67500144599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E4EC6198AC67500144599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E4ECB198AC67500144599 /* XCTest.framework in Frameworks */,
+				D72E4ECD198AC67500144599 /* UIKit.framework in Frameworks */,
+				D72E4ECC198AC67500144599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72E4E9F198AC67400144599 = {
+			isa = PBXGroup;
+			children = (
+				D72E4EB1198AC67500144599 /* ChattySend */,
+				D72E4ED0198AC67500144599 /* ChattySendTests */,
+				D72E4EAA198AC67500144599 /* Frameworks */,
+				D72E4EA9198AC67500144599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D72E4EA9198AC67500144599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D72E4EA8198AC67400144599 /* ChattySend.app */,
+				D72E4EC9198AC67500144599 /* ChattySendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72E4EAA198AC67500144599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D72E4EAB198AC67500144599 /* Foundation.framework */,
+				D72E4EAD198AC67500144599 /* CoreGraphics.framework */,
+				D72E4EAF198AC67500144599 /* UIKit.framework */,
+				D72E4ECA198AC67500144599 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D72E4EB1198AC67500144599 /* ChattySend */ = {
+			isa = PBXGroup;
+			children = (
+				D72E4EBA198AC67500144599 /* LCNAppDelegate.h */,
+				D72E4EBB198AC67500144599 /* LCNAppDelegate.m */,
+				D72E4EBD198AC67500144599 /* Main.storyboard */,
+				D7D6A14D1A07427000FF2B5E /* ChatSend Send to FlatIron.storyboard */,
+				D77C7ED41A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.h */,
+				D77C7ED51A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.m */,
+				D72E4EC0198AC67500144599 /* LCNViewController.h */,
+				D72E4EC1198AC67500144599 /* LCNViewController.m */,
+				D72E4EC3198AC67500144599 /* Images.xcassets */,
+				D72E4EB2198AC67500144599 /* Supporting Files */,
+			);
+			path = ChattySend;
+			sourceTree = "<group>";
+		};
+		D72E4EB2198AC67500144599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D72E4EB3198AC67500144599 /* ChattySend-Info.plist */,
+				D72E4EB4198AC67500144599 /* InfoPlist.strings */,
+				D72E4EB7198AC67500144599 /* main.m */,
+				D72E4EB9198AC67500144599 /* ChattySend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D72E4ED0198AC67500144599 /* ChattySendTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72E4ED6198AC67500144599 /* ChattySendTests.m */,
+				D72E4ED1198AC67500144599 /* Supporting Files */,
+			);
+			path = ChattySendTests;
+			sourceTree = "<group>";
+		};
+		D72E4ED1198AC67500144599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D72E4ED2198AC67500144599 /* ChattySendTests-Info.plist */,
+				D72E4ED3198AC67500144599 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72E4EA7198AC67400144599 /* ChattySend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E4EDA198AC67500144599 /* Build configuration list for PBXNativeTarget "ChattySend" */;
+			buildPhases = (
+				D72E4EA4198AC67400144599 /* Sources */,
+				D72E4EA5198AC67400144599 /* Frameworks */,
+				D72E4EA6198AC67400144599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChattySend;
+			productName = ChattySend;
+			productReference = D72E4EA8198AC67400144599 /* ChattySend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D72E4EC8198AC67500144599 /* ChattySendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E4EDD198AC67500144599 /* Build configuration list for PBXNativeTarget "ChattySendTests" */;
+			buildPhases = (
+				D72E4EC5198AC67500144599 /* Sources */,
+				D72E4EC6198AC67500144599 /* Frameworks */,
+				D72E4EC7198AC67500144599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72E4ECF198AC67500144599 /* PBXTargetDependency */,
+			);
+			name = ChattySendTests;
+			productName = ChattySendTests;
+			productReference = D72E4EC9198AC67500144599 /* ChattySendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72E4EA0198AC67400144599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lisa Noschese";
+				TargetAttributes = {
+					D72E4EC8198AC67500144599 = {
+						TestTargetID = D72E4EA7198AC67400144599;
+					};
+				};
+			};
+			buildConfigurationList = D72E4EA3198AC67400144599 /* Build configuration list for PBXProject "ChattySend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D72E4E9F198AC67400144599;
+			productRefGroup = D72E4EA9198AC67500144599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72E4EA7198AC67400144599 /* ChattySend */,
+				D72E4EC8198AC67500144599 /* ChattySendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72E4EA6198AC67400144599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E4EC4198AC67500144599 /* Images.xcassets in Resources */,
+				D7D6A14F1A07427000FF2B5E /* ChatSend Send to FlatIron.storyboard in Resources */,
+				D72E4EB6198AC67500144599 /* InfoPlist.strings in Resources */,
+				D72E4EBF198AC67500144599 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E4EC7198AC67500144599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E4ED5198AC67500144599 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72E4EA4198AC67400144599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E4EBC198AC67500144599 /* LCNAppDelegate.m in Sources */,
+				D72E4EC2198AC67500144599 /* LCNViewController.m in Sources */,
+				D77C7ED61A0704B1001F0D92 /* LCNMasterViewControllerTableViewController.m in Sources */,
+				D72E4EB8198AC67500144599 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E4EC5198AC67500144599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E4ED7198AC67500144599 /* ChattySendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D72E4ECF198AC67500144599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72E4EA7198AC67400144599 /* ChattySend */;
+			targetProxy = D72E4ECE198AC67500144599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D72E4EB4198AC67500144599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E4EB5198AC67500144599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D72E4EBD198AC67500144599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E4EBE198AC67500144599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D72E4ED3198AC67500144599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E4ED4198AC67500144599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7D6A14D1A07427000FF2B5E /* ChatSend Send to FlatIron.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D6A14E1A07427000FF2B5E /* Base */,
+			);
+			name = "ChatSend Send to FlatIron.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72E4ED8198AC67500144599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D72E4ED9198AC67500144599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E4EDB198AC67500144599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChattySend/ChattySend-Prefix.pch";
+				INFOPLIST_FILE = "ChattySend/ChattySend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D72E4EDC198AC67500144599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChattySend/ChattySend-Prefix.pch";
+				INFOPLIST_FILE = "ChattySend/ChattySend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D72E4EDE198AC67500144599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChattySend.app/ChattySend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChattySend/ChattySend-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChattySendTests/ChattySendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D72E4EDF198AC67500144599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChattySend.app/ChattySend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChattySend/ChattySend-Prefix.pch";
+				INFOPLIST_FILE = "ChattySendTests/ChattySendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72E4EA3198AC67400144599 /* Build configuration list for PBXProject "ChattySend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E4ED8198AC67500144599 /* Debug */,
+				D72E4ED9198AC67500144599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E4EDA198AC67500144599 /* Build configuration list for PBXNativeTarget "ChattySend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E4EDB198AC67500144599 /* Debug */,
+				D72E4EDC198AC67500144599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E4EDD198AC67500144599 /* Build configuration list for PBXNativeTarget "ChattySendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E4EDE198AC67500144599 /* Debug */,
+				D72E4EDF198AC67500144599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72E4EA0198AC67400144599 /* Project object */;
+}
